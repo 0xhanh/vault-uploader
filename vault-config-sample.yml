@@ -1,0 +1,32 @@
+hub_uri: ""
+hub_key: ""
+hub_private_key: ""
+hub_site: ""
+# key: ""
+remove_after_upload: true
+cloud: "kstorage"
+
+# S3 integration
+s3: 
+  proxy: "false"
+  proxyuri: 
+  bucket: demo
+  region: 
+  username: root
+  publickey:
+  secretkey: 
+
+# KStorage contains the credentials of the Kerberos Storage/Kerberos Cloud instance.
+# By defining KStorage you can make your recordings available in the cloud, at a centrel place.
+kstorage:
+  uri: 
+  cloud_key: ""
+  access_key: "4ZqCXV1Z526wGvfM"
+  secret_access_key: "kjAnuxe8iON9!j6op1uB5CYmeZ"
+  provider: "minio-local"
+  directory: "default"
+
+# Dropbox integration
+dropbox:
+  access_token: ""
+  directory: ""
